@@ -10,7 +10,7 @@ require 'active_support/core_ext/kernel/reporting'
 require 'active_support/concern'
 require 'active_support/core_ext/hash/indifferent_access'
 require 'active_support/core_ext/hash/except'
-require 'active_support/buffered_logger'
+require 'active_support/logger'
 
 require 'rack'
 require 'faye/websocket'
